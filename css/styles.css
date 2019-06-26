@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* google ui (@scheme color) */
 
+::-webkit-scrollbar {
+	display: none;
+}
+
 /* GENERAL */
 body, html {
 	margin: 0;
@@ -60,6 +64,16 @@ main {
 
 .form-input::placeholder {
 	color: grey;
+}
+
+#display {
+	margin: 0 10vw;
+	border-right: 2px green solid;
+	border-left: 2px green solid;
+	max-width: 100%;
+	overflow-y: scroll;
+	padding: 0 2vw;
+	text-align: center;
 }
 
 #form-submit {
