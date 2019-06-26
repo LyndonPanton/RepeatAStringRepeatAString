@@ -10,12 +10,14 @@ window.onload = function(event) {
 	function repeat(string, number) {
 		let repeat = "";
 
-		if (isNaN(number)) {
-			return "Enter a number";
+		if (string === "" || number === "") {
+			repeat = "???";
+		} else if (isNaN(number)) {
+			repeat = "Enter a number";
 		} else if (number % 1 !== 0) {
-			return "Enter integeral value";
+			repeat = "Enter integeral value";
 		} else if (number < 1) {
-			return "Enter a number greater than 1";
+			repeat = "Enter a number greater than 1";
 		} else {
 			// Method I
 			for (let i = 1; i <= number; i++) {
