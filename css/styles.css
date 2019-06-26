@@ -30,6 +30,52 @@ header {
 
 
 /* MAIN */
+input {
+	display: block;
+	margin: 0 auto 2vh;
+}
+
+main {
+	padding: 10vh 0;
+}
+
+.form-input {
+	border: none;
+	border-bottom: 2px #757575 solid;
+	background-color: transparent;
+	text-align: center;
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
+	font-size: 1em;
+	color: black;
+}
+
+.form-input:focus {
+	border-bottom-color: #3484F0;
+
+}
+
+.form-input:focus::placeholder {
+	font-weight: bold;
+}
+
+.form-input::placeholder {
+	color: grey;
+}
+
+#form-submit {
+	border: 2px purple solid;
+	border-radius: 5px;
+	padding: 0.5vh 4vw;
+	background-color: #F7F7F7;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: 1.2em;
+}
+
+#form-submit:active {
+	border-color: indianred;
+	background-color: royalblue;
+	color: white;
+}
 
 
 
