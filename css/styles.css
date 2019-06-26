@@ -34,3 +34,39 @@ header {
 
 
 /* FOOTER */
+footer {
+	position: absolute;
+	bottom: 0;
+	min-width: 100%;
+	padding: 1vh 0;
+	background-color: #F7F7F7;
+}
+
+.more-link {
+	color: black;
+}
+
+.more-link:active {
+	color: orange !important;
+}
+
+.more-link:focus {
+	color: seagreen;
+}
+
+.more-link:hover {
+	color: steelblue;
+}
+
+#copyright {
+	display: block;
+}
+
+#more {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+	padding: 1vh 0 0;
+	font-size: 1.4em;
+}
