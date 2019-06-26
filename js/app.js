@@ -4,7 +4,7 @@ window.onload = function(event) {
 	document.getElementById("copyright-year").textContent = (new Date()).getFullYear();
 
 	function display(response) {
-		
+		document.getElementById("display").textContent = response;
 	}
 
 	function repeat(string, number) {
